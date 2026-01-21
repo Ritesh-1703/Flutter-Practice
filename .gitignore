@@ -1,0 +1,51 @@
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+build/
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# Android
+android/.gradle/
+android/local.properties
+android/key.properties
+android/**/GeneratedPluginRegistrant.java
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/App.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+
+# macOS
+macos/Pods/
+macos/Flutter/ephemeral/
+
+# Windows
+windows/flutter/ephemeral/
+
+# Linux
+linux/flutter/ephemeral/
+
+# Web
+web/.dart_tool/
+web/build/
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+
+# Environment files
+.env
+.env.*
