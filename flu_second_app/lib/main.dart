@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'register_screen.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -56,6 +56,13 @@ class _LoginScreenState extends State<LoginScreen> {
                 _buildPasswordField(),
                 const SizedBox(height: 24),
                 _buildLoginButton(),
+                
+                TextButton(onPressed: (){
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => RegisterScreen()),
+                  );
+                }, child:Text("If Not Register? Click"))
               ],
             ),
           ),
