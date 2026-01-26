@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'register_screen.dart';
+import 'home_page.dart';
+
+
 void main() {
   runApp(const MyApp());
 }
@@ -145,6 +148,10 @@ class _LoginScreenState extends State<LoginScreen> {
         const SnackBar(content: Text("Please fill all fields")),
       );
     } else {
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => HomePage()),
+      );
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(content: Text("Login Successful 🎉")),
       );

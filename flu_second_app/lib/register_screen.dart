@@ -82,12 +82,17 @@ class RegisterScreen extends StatelessWidget{
             ),
             SizedBox(height: 20),
 
-            ElevatedButton(onPressed:(){
-              ScaffoldMessenger.of(context).showSnackBar(
-                const SnackBar(content: Text("Register Successful 🎉")),
-              );
-            },
-               child:Text("Register"),
+            SizedBox(
+              width: double.infinity,
+              height: 48,
+              child: ElevatedButton(
+                onPressed:(){
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(content: Text("Register Successful 🎉")),
+                  );
+                },
+                child:Text("Register"),
+              ),
             ),
 
             TextButton(
