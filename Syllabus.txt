@@ -1,0 +1,388 @@
+📖 CHAPTER 1: INTRODUCTION TO FLUTTER
+
+Introduction to Flutter
+
+History and evolution of Flutter
+
+Flutter architecture
+
+Flutter vs Native Android / iOS
+
+Advantages and limitations of Flutter
+
+Flutter SDK and tooling overview
+
+Flutter project structure
+
+Hot Reload vs Hot Restart
+
+📖 CHAPTER 2: DART PROGRAMMING LANGUAGE
+
+Introduction to Dart
+
+Dart syntax and keywords
+
+Variables and data types
+
+Operators
+
+Control statements (if, switch, loops)
+
+Functions
+
+Object-Oriented Programming in Dart
+
+Classes and objects
+
+Constructors
+
+Inheritance
+
+Polymorphism
+
+Abstraction
+
+Interfaces
+
+Null safety
+
+Collections (List, Set, Map)
+
+Async programming
+
+Future
+
+async / await
+
+Stream (basics)
+
+📖 CHAPTER 3: FLUTTER FUNDAMENTALS
+
+Widget concept
+
+Widget tree
+
+StatelessWidget
+
+StatefulWidget
+
+Build method
+
+BuildContext
+
+MaterialApp
+
+Scaffold
+
+App lifecycle (basic)
+
+Keys (basic understanding)
+
+📖 CHAPTER 4: BASIC & ADVANCED WIDGETS
+Basic Widgets
+
+Text
+
+Container
+
+Image
+
+Icon
+
+Button widgets
+
+SizedBox
+
+Padding
+
+Align
+
+Layout Widgets
+
+Row
+
+Column
+
+Expanded
+
+Flexible
+
+Stack
+
+Positioned
+
+Wrap
+
+MediaQuery
+
+LayoutBuilder
+
+📖 CHAPTER 5: USER INTERACTION & FORMS
+
+TextField
+
+TextEditingController
+
+FocusNode
+
+Form widget
+
+Form validation
+
+Keyboard handling
+
+GestureDetector
+
+InkWell
+
+📖 CHAPTER 6: LISTS & SCROLLING
+
+ListView
+
+ListView.builder
+
+GridView
+
+GridView.builder
+
+ListTile
+
+SingleChildScrollView
+
+Pagination basics
+
+📖 CHAPTER 7: NAVIGATION & ROUTING
+
+Navigator push and pop
+
+Passing data between screens
+
+Named routes
+
+Route management best practices
+
+Navigation stack concept
+
+📖 CHAPTER 8: STATE MANAGEMENT – BASICS
+
+What is state?
+
+Local state vs global state
+
+setState
+
+Lifting state up
+
+Stateful widget lifecycle methods
+
+Problems with setState
+
+📖 CHAPTER 9: LOCAL STORAGE
+
+SharedPreferences
+
+Saving primitive data
+
+Login/session handling
+
+Clearing local data
+
+📖 CHAPTER 10: DATABASE MANAGEMENT (SQLITE)
+
+Introduction to SQLite
+
+sqflite package
+
+Database creation
+
+Table creation
+
+CRUD operations
+
+Data models
+
+Database versioning
+
+Error handling in database operations
+
+📖 CHAPTER 11: FLOOR DATABASE (ROOM EQUIVALENT)
+
+Introduction to Floor
+
+Comparison with Room Database
+
+Entity annotation
+
+Primary keys
+
+DAO (Data Access Object)
+
+Query annotations
+
+Database class
+
+Code generation using build_runner
+
+Database migrations
+
+Relationships (one-to-many)
+
+Best practices for Floor
+
+📖 CHAPTER 12: NETWORKING & API INTEGRATION
+
+Introduction to REST APIs
+
+HTTP methods (GET, POST, PUT, DELETE)
+
+JSON structure
+
+http package
+
+API request handling
+
+Headers and authentication tokens
+
+Error handling
+
+API response parsing
+
+Pagination basics
+
+📖 CHAPTER 13: STATE MANAGEMENT – ADVANCED (RIVERPOD)
+
+Introduction to Riverpod
+
+ProviderScope
+
+Provider
+
+StateProvider
+
+FutureProvider
+
+StreamProvider
+
+StateNotifierProvider
+
+ref.watch vs ref.read
+
+Error and loading state handling
+
+Riverpod with API
+
+Riverpod with database
+
+📖 CHAPTER 14: APPLICATION ARCHITECTURE
+
+Importance of architecture
+
+Separation of concerns
+
+Repository pattern
+
+MVVM architecture
+
+Clean architecture overview
+
+Folder structure best practices
+
+Dependency Injection
+
+get_it package
+
+📖 CHAPTER 15: PERFORMANCE OPTIMIZATION
+
+const constructors
+
+Widget rebuild optimization
+
+RepaintBoundary
+
+Image optimization
+
+Flutter DevTools
+
+Memory and performance monitoring
+
+📖 CHAPTER 16: ANIMATIONS
+
+Introduction to animations
+
+Implicit animations
+
+Explicit animations
+
+AnimationController
+
+Tween
+
+Hero animations
+
+Basic custom animations
+
+📖 CHAPTER 17: PLATFORM & DEVICE FEATURES
+
+Camera integration
+
+Location services
+
+Permissions handling
+
+File picker
+
+Device storage access
+
+📖 CHAPTER 18: FIREBASE INTEGRATION
+
+Firebase overview
+
+Firebase Authentication
+
+Firestore database
+
+Firebase Cloud Messaging (push notifications)
+
+Firebase security basics
+
+📖 CHAPTER 19: TESTING & DEBUGGING
+
+Debugging techniques
+
+Common Flutter errors
+
+Unit testing
+
+Widget testing
+
+Error handling strategies
+
+Logging
+
+📖 CHAPTER 20: BUILD & DEPLOYMENT
+
+App signing
+
+Build variants
+
+Android APK / AAB generation
+
+Play Store publishing
+
+Versioning and release management
+
+📖 CHAPTER 21: ADVANCED & EXPERT TOPICS
+
+Isolates
+
+Background tasks
+
+Custom RenderObject (intro)
+
+Large-scale app handling
+
+Production bug fixing
+
+Code review practices
+
+App scalability strategies
