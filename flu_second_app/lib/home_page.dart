@@ -9,60 +9,63 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.blue.shade50,
 
-      appBar: AppBar(
-        title: const Text("Home Page"),
+      appBar: AppBar(title: const Text("Home Page"),
+        centerTitle:true,
       ),
-      drawer: Drawer(
+      endDrawer: Drawer(
         child: ListView(
           padding: EdgeInsets.zero,
           children: [
             DrawerHeader(
-              decoration:const BoxDecoration(
-                color: Colors.blue,
-              ),
+              decoration: const BoxDecoration(color: Colors.blue),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
-                children: const[
+                children: const [
                   CircleAvatar(
                     radius: 32,
                     backgroundColor: Colors.white,
-                    child: Icon(
-                      Icons.person,size: 40,
-                    ),
+                    child: Icon(Icons.person, size: 40),
                   ),
                   SizedBox(height: 20),
                   Text(
                     "Welcome User",
-                    style: TextStyle(
-                      color: Colors.white, fontSize:18,
-                    ),
+                    style: TextStyle(color: Colors.white, fontSize: 18),
                   ),
-                  Text("user@gmail.com", style: TextStyle(
-                        color: Colors.white70
-                  ),),
+                  Text(
+                    "user@gmail.com",
+                    style: TextStyle(color: Colors.white70),
+                  ),
                 ],
               ),
             ),
             ListTile(
               leading: Icon(Icons.settings),
               title: Text("Settings"),
-              onTap: (){
+              onTap: () {
                 Navigator.pop(context);
               },
             ),
             ListTile(
               leading: Icon(Icons.logout),
               title: Text("Logout"),
-              onTap: (){
+              onTap: () {
                 Navigator.pushAndRemoveUntil(
                   context,
-                  MaterialPageRoute(builder: (_)=> LoginScreen()),
+                  MaterialPageRoute(builder: (_) => LoginScreen()),
                   (route) => false,
                 );
               },
             ),
+            ListTile(
+              leading: Icon(Icons.info),
+              title: Text("About"),
+              onTap: () {
+                Navigator.pop(context);
+              }
+            ),
           ],
         ),
+
       ),
       body: Center(
         child: Container(
@@ -70,10 +73,7 @@ class HomePage extends StatelessWidget {
           decoration: BoxDecoration(
             color: Colors.white,
 
-            border: Border.all(
-              width: 4,
-              color: Colors.blue,
-            ),
+            border: Border.all(width: 4, color: Colors.blue),
 
             borderRadius: BorderRadius.circular(16),
 
@@ -88,10 +88,7 @@ class HomePage extends StatelessWidget {
 
           child: const Text(
             "This is Home Page",
-            style: TextStyle(
-              fontSize: 20,
-              fontWeight: FontWeight.bold,
-            ),
+            style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
           ),
         ),
       ),
