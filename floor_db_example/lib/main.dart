@@ -1,3 +1,4 @@
+import 'package:floor_db_example/ui/home/Home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,10 +12,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Floor Database",
-      home: Text("This is Floor Home",
-      style: TextStyle(
-        color: Colors.amber),
-      ),
+      debugShowCheckedModeBanner: false,
+      home: const HomePage(),
     );
   }
 }
