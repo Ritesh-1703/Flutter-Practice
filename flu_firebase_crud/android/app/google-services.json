@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "236450143936",
+    "project_id": "flu-firebase-application",
+    "storage_bucket": "flu-firebase-application.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236450143936:android:a327010f62a9287aac1725",
+        "android_client_info": {
+          "package_name": "com.example.flu_firebase_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236450143936-6slq7ttup7trf6p9pq297hol355r8jpd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flu_firebase_application",
+            "certificate_hash": "726a91012a462020f3aa712ea697ab630207c567"
+          }
+        },
+        {
+          "client_id": "236450143936-e61cb2qefbi45p1gulhoef965t6233ls.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAx_v-fF_fRmMF0YQYmDdANZv8yASPHoVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236450143936-e61cb2qefbi45p1gulhoef965t6233ls.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "236450143936-2a9edp23if6ta621714klo2tfvg6j6v5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.fluFirebaseApplication"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236450143936:android:af594044985491e0ac1725",
+        "android_client_info": {
+          "package_name": "com.example.flu_firebase_crud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236450143936-e61cb2qefbi45p1gulhoef965t6233ls.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAx_v-fF_fRmMF0YQYmDdANZv8yASPHoVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236450143936-e61cb2qefbi45p1gulhoef965t6233ls.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "236450143936-2a9edp23if6ta621714klo2tfvg6j6v5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.fluFirebaseApplication"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
