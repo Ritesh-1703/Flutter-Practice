@@ -17,6 +17,11 @@ android/local.properties
 android/key.properties
 android/**/GeneratedPluginRegistrant.java
 
+# 🔥 Firebase (ADD THESE)
+**/google-services.json
+**/firebase_options.dart
+**/GoogleService-Info.plist
+
 # iOS
 ios/Pods/
 ios/.symlinks/
